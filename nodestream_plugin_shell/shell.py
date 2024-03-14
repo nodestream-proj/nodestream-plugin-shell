@@ -18,7 +18,7 @@ class Shell(Extractor):
         flags: Optional[Set[str]] = None,
         ignore_stdout: Optional[bool] = False,
     ):
-        """Initializes the instance of the transformer.
+        """Initializes the instance of the extractor.
         Expects stdout in json format.
 
         Args:
