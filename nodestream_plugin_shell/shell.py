@@ -23,8 +23,9 @@ class Shell(Extractor):
 
         Args:
             command (str): The command for the execution call.
-            arguments (set): The arguments for the command to run.
-            options (dict): The Options to provide to the command for run.
+            arguments ([str]): The arguments used in the command.
+            options (dict): The Options used in the command.
+            flags ([str]): Flags to use in the command.
             ignore_stdout (bool): Don't pass stdout to pipeline.
         """
         self.command = command
