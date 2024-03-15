@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nodestream-plugin-shell"
-version = "0.11.0"
+version = "0.11.11"
 description = "A plugin for nodestream providing pipeline shell execution."
 authors = ["Grant Hoffman <Grant_Hoffman@intuit.com>"]
 readme = "README.md"
