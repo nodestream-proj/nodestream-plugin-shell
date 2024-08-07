@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nodestream-plugin-shell"
-version = "0.12.0"
+version = "0.13.0b1"
 description = "A plugin for nodestream providing pipeline shell execution."
 authors = ["Grant Hoffman <Grant_Hoffman@intuit.com>"]
 readme = "README.md"
@@ -8,7 +8,7 @@ license = "Apache 2.0"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-nodestream = "^0.12.0"
+nodestream = "0.13.0b1"
 
 [tool.poetry.plugins."nodestream.plugins"]
 pipeline = "nodestream_plugin_shell"
